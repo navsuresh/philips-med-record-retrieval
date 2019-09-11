@@ -37,6 +37,31 @@
             color: #9DBFAF;
             font-size: 40px
             }
+
+            table{
+  width: 83%;
+  border-collapse: collapse;
+  text-align: left;
+  overflow: hidden;
+  margin-top:10%;
+  margin-left:5%;
+            }
+ td, th{
+    border-top: 1px solid grey;
+    padding: 10px;
+    text-align: center;     
+
+  }
+  
+
+  
+  th{
+    background-color: #00B4CC;
+    color: white;
+    text-align: center;     
+  }
+  
+
         </style>
     </head>
    <body>  
@@ -44,17 +69,19 @@
 
   
         
-      <form action = "http://localhost:5000/success" method = "POST">  
+      <form action = "http://localhost:5000/success" method = "POST" id="form">  
            
               
             <div class="search">  
-               {{ form.email.label }}<br>  
-               {{ form.email(class="searchTerm") }}  
+               {{ form.query.label }}<br>  
+               {{ form.query(class="searchTerm") }}  
                <br>  
 
                {{ form.submit(class="searchButton") }}  
             </div>  
-              
       </form>  
+
+      {{table}}
+      
    </body>  
 </html>  

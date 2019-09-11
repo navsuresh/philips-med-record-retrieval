@@ -3,10 +3,10 @@ from wtforms import TextField, IntegerField, TextAreaField, SubmitField, RadioFi
 
 from wtforms import validators, ValidationError
 
-class ContactForm(Form):
+class QueryForm(Form):
 
    
-   email = TextField("",[validators.Required("Enter Search Query")])
+   query = TextField("",[validators.Required("Enter Search Query")])
    
 
    submit = SubmitField("Search")

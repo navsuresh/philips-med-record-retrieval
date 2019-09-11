@@ -1,0 +1,38 @@
+aspirin:
+profound tiredness:d tiredness
+carotid doppler examination: doppler examination
+chromophobe metastatic renal cell:hobe metastatic renal cell
+ischaemic stroke:ic stroke
+levo thyroxine replacement therapy:yroxine replacement therapy
+acutely unwell: unwell
+mild stroke:roke
+interferon alpha . tyrosine kinases:ron alpha . tyrosine kinases
+inattention:tion
+fasting glucose: glucose
+thrombosis:sis
+many cancer types:ncer types
+aspirin:
+profound tiredness:d tiredness
+carotid doppler examination: doppler examination
+chromophobe metastatic renal cell:hobe metastatic renal cell
+ischaemic stroke:ic stroke
+levo thyroxine replacement therapy:yroxine replacement therapy
+acutely unwell: unwell
+mild stroke:roke
+interferon alpha . tyrosine kinases:ron alpha . tyrosine kinases
+inattention:tion
+fasting glucose: glucose
+thrombosis:sis
+many cancer types:ncer typesaspirin:
+profound tiredness:d tiredness
+carotid doppler examination: doppler examination
+chromophobe metastatic renal cell:hobe metastatic renal cell
+ischaemic stroke:ic stroke
+levo thyroxine replacement therapy:yroxine replacement therapy
+acutely unwell: unwell
+mild stroke:roke
+interferon alpha . tyrosine kinases:ron alpha . tyrosine kinases
+inattention:tion
+fasting glucose: glucose
+thrombosis:sis
+many cancer types:ncer types

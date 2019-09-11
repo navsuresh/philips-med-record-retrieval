@@ -1,0 +1,104 @@
+bcr.01.2009.1420.2
+
+ischaemic stroke in a patient on sunitinib summary concerns have been raised about possible theoretical risk of thrombosis and bleeding with sunitinib ( anti-vascular endothelial cell growth factor agent ) therapy used for treatment of metastatic renal cell carcinoma . we present the first case of stroke in an older man with metastatic renal cell carcinoma , on sunitinib therapy . background this case highlights the need for continued cardiovascular vigilance and provision of appropriate advice and preventative treatments to high risk patients commencing anti - vascular endothelial cell growth factor ( anti-vegf ) treatments case presentation a right handed man was admitted to our institution for investigation of a recent stroke . he was previously diagnosed with stage iv clear cell renal cell cancer with metastatic deposits in both adrenals , left hilum and small nodular deposits in both lungs . this was treated with a right radical nephrectomy followed by three cycles of interferon and concomitant 5 - flurouracil therapy , to which there was little response . cyclical anti-vegf receptor therapy with the tyrosine kinase inhibitor sunitinib 50 mg once daily for 4 weeks , followed by a 2 week rest , was commenced 18 months after initial diagnosis . subsequent surveillance computed tomography ( ct ) scans showed no further progression of metastatic disease . the patient developed drug related hypothyroidism after 1 year of sunitinib therapy ( thyroid stimulating hormone ( tsh ) & gt ; 75 mu / l ( normal range 0.4 – 4.0 mu / l ) , thyroid peroxidase antibodies negative ) , requiring levo thyroxine replacement therapy . however , he remained clinically well and functionally independent during this time . one year after commencing sunitinib the patient became acutely unwell . he recollected a profound tiredness and global weakness , but no specific focal neurological symptoms . he was admitted to another hospital where was diagnosed with a “ mild stroke ” . the patient ’ s vascular risk factor profile included a 30 pack - year smoking history and hypertension . correspondence from this admission suggests that the patient had a mild left hemiparesis and left homonymous hemianopia on admission that resolved within 48 h. ct of the brain showed a right parietal infarct . he remained in hospital for 1 week and had returned to baseline functional status on discharge . he was not placed on antiplatelet therapy . approximately 1 month after the event the patient presented to the oncology and stroke service at our institution for further evaluation . clinical examination revealed mild flattening of his left nasolabial groove only ; otherwise , he had no abnormal neurological findings and no evidence of non-dominant parietal signs ( apraxia , inattention etc ) . investigations t2 weighted magnetic resonance image of brain showing a wedge shaped high signal intensity defect involving the right parietal lobe , compatible with recent infarction . the patient was normotensive during admission . routine bloods were normal apart from elevated erythrocyte sedimentation rate ( esr ) ( 43 mm / hr ) ; c reactive protein ( crp ) was normal , total cholesterol was 4.2 mmol / l ( low density lipoprotein cholesterol 2.6 mmol / l ) , and fasting glucose was 5.5 mmol / l . baseline and 24 h electrocardiogram ( ecg ) monitoring showed sinus rhythm throughout , and carotid doppler examination showed & lt ; 50 % stenosis of the internal carotid artery ( ica ) bilaterally . a transoesophageal echocardiogram showed no cardiac source of thrombus , a negative “ bubble ” study for patent foramen ovale , and moderate atheromatous disease only in the descending aorta . the patient was commenced on antiplatelet therapy in the form of aspirin 75 mg once daily and atorvastatin 10 mg at night . the stroke was classified as “ infarct of undetermined aetiology ” using the toast classification . discussion sunitinib , a tyrosine kinase inhibitor , extends the survival of patients with chromophobe metastatic renal cell and gastric stromal tumours . in metastatic renal cell carcinoma , sunitinib is associated with a greater progression - free survival and patient reported quality of life over interferon alpha . tyrosine kinases are often mutated or over expressed in many cancer types and the advent of small molecule inhibitors such as sunitinib have improved the tolerability of chemotherapy for many patients . sunitinib inhibits a number of target receptors and molecules including vegf receptors and platelet derived growth factors , colony stimulating factor - 1 , and fms - like tyrosine kinase - 3 . 2 these multi-modal actions affect angiogenesis and may impair maintenance or even cause regression of normal organ vasculature ; they have been associated with bleeding and also affect normal cell tyrosine kinases , resulting in hypothyroidism3 ( as in this case ) and possible cardiac dysfunction . recent reports have raised concern about the cardiovascular side effect profile of sunitinib . one recent study showed 28 % and 47 % of patients on sunitinib for gastric stromal tumours , developing reduced left ventricular ejection fraction ( lvef ) and hypertension , respectively , in association with sunitinib treatment . in addition ambulatory blood pressure monitoring suggests that most patients will experience significant increases in blood pressure while on sunitinib irrespective of their pre-morbid status , and that this rise in blood pressure may accelerate with subsequent cycles of treatment . 5 although both the theoretical risk of thrombosis and bleeding is well documented with anti-vegf treatments , this is the first documented case of a thrombotic or any stroke possibly attributed to this treatment . sunitinib has been associated with hypertensive microangiopathic reversible posterior leucoencephalopathy , 6 but to our knowledge this is the first reported case of stroke possibly associated with its use . we classified the stroke as being of ‘ undetermined aetiology ’ using toast criteria ; though embolic in nature by mri infarct appearances , there did not appear to be a readily identifiable source on carotid and cardiac imaging or monitoring . the patient did have significant risk factors , however , including a history of smoking and hypertension and an underlying malignancy , itself a risk factor for thrombotic events . however we feel the recent literature , in conjunction with this case , highlights the need for continued cardiovascular vigilance and provision of appropriate advice and preventative treatments to high risk patients commencing anti-vegf treatments
+
+cancer is associated with an increased risk of @placeholder due to the disease itself , paraneoplastic phenomena , and possibly newer chemotherapeutic agents .
+
+stroke
+
+mri infarct appearances:arct appearances
+hypertensive microangiopathic reversible posterior leucoencephalopathy:nsive microangiopathic reversible posterior leucoencephalopathy
+right radical nephrectomy:adical nephrectomy
+stage iv clear cell renal cell cancer:v clear cell renal cell cancer
+interferon:ron
+sunitinib:ib
+wedge shaped high signal intensity defect:haped high signal intensity defect
+specific focal neurological symptoms:c focal neurological symptoms
+t2 weighted magnetic resonance image of brain:hted magnetic resonance image of brain
+50 % stenosis of the internal carotid artery ( ica ) bilaterally:enosis of the internal carotid artery ( ica ) bilaterally
+anti-vegf treatments:gf treatments
+left homonymous hemianopia:monymous hemianopia
+ambulatory blood pressure monitoring:ory blood pressure monitoring
+abnormal neurological findings:l neurological findings
+multi-modal actions affect angiogenesis:odal actions affect angiogenesis
+metastatic renal cell carcinoma:tic renal cell carcinoma
+significant risk factors:cant risk factors
+recent stroke:stroke
+reduced left ventricular ejection fraction: left ventricular ejection fraction
+colony stimulating factor - 1:stimulating factor - 1
+mild flattening of his left nasolabial groove:attening of his left nasolabial groove
+recent infarction:infarction
+treatment:nt
+sunitinib therapy:ib therapy
+infarct:
+commencing sunitinib:ing sunitinib
+stroke:
+total cholesterol:holesterol
+cardiac dysfunction: dysfunction
+monitoring:ing
+preventative treatments:ative treatments
+right parietal infarct:arietal infarct
+thrombus:s
+apraxia:
+fms - like tyrosine kinase:ike tyrosine kinase
+anti - vascular endothelial cell growth factor ( anti-vegf ) treatments:vascular endothelial cell growth factor ( anti-vegf ) treatments
+mild left hemiparesis:ft hemiparesis
+sunitinib ( anti-vascular endothelial cell growth factor agent ) therapy:ib ( anti-vascular endothelial cell growth factor agent ) therapy
+metastatic deposits in both adrenals:tic deposits in both adrenals
+factor profile:profile
+global weakness:weakness
+thyroid peroxidase antibodies: peroxidase antibodies
+one recent study:ent study
+significant increases in blood pressure:cant increases in blood pressure
+baseline and 24 h electrocardiogram ( ecg ) monitoring:e and 24 h electrocardiogram ( ecg ) monitoring
+sunitinib treatment:ib treatment
+lvef ):
+blood pressure:ressure
+tyrosine kinase inhibitor sunitinib:e kinase inhibitor sunitinib
+vegf receptors:ceptors
+metastatic disease:tic disease
+transoesophageal echocardiogram:sophageal echocardiogram
+low density lipoprotein cholesterol:sity lipoprotein cholesterol
+clinical examination:l examination
+aspirin:
+profound tiredness:d tiredness
+carotid doppler examination: doppler examination
+chromophobe metastatic renal cell:hobe metastatic renal cell
+ischaemic stroke:ic stroke
+levo thyroxine replacement therapy:yroxine replacement therapy
+acutely unwell: unwell
+mild stroke:roke
+interferon alpha . tyrosine kinases:ron alpha . tyrosine kinases
+inattention:tion
+fasting glucose: glucose
+thrombosis:sis
+many cancer types:ncer types
+moderate atheromatous disease:e atheromatous disease
+thrombotic:tic
+tyrosine kinase inhibitor:e kinase inhibitor
+drug related hypothyroidism:lated hypothyroidism
+elevated erythrocyte sedimentation rate:d erythrocyte sedimentation rate
+non-dominant parietal signs:inant parietal signs
+atorvastatin:tatin
+underlying malignancy:ing malignancy
+gastric stromal tumours: stromal tumours
+hypertension:nsion
+concomitant 5 - flurouracil therapy:tant 5 - flurouracil therapy
+carotid and cardiac imaging: and cardiac imaging
+cyclical anti-vegf receptor therapy:l anti-vegf receptor therapy
+cell tyrosine kinases:rosine kinases
+small molecule inhibitors:olecule inhibitors
+ct of the brain:he brain
+small nodular deposits in both lungs:odular deposits in both lungs
+c reactive protein:ive protein
+greater progression - free survival: progression - free survival
+thyroid stimulating hormone: stimulating hormone
+antiplatelet therapy:telet therapy
+subsequent surveillance computed tomography ( ct ) scans:ent surveillance computed tomography ( ct ) scans
+patent foramen ovale:foramen ovale
+further evaluation: evaluation
+embolic:
+bleeding:g
+platelet derived growth factors:t derived growth factors
+chemotherapy:erapy
+thrombotic events:tic events

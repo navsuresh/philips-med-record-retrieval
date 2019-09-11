@@ -36,18 +36,31 @@ for em in train['text'].values:
     j+=1
 print("Number of texts processed: ",j)
 
-d2v_model = Doc2Vec(all_content_train, size = 100, window = 10, min_count = 500, workers=7, dm = 1,alpha=0.025, min_alpha=0.001)
-d2v_model.train(all_content_train, total_examples=d2v_model.corpus_count, epochs=10, start_alpha=0.002, end_alpha=-0.016)
+d2v_model = Doc2Vec(all_content_train, 
+                    size = 100, window = 10, 
+                    min_count = 500, workers=7, 
+                    dm = 1,alpha=0.025, 
+                    min_alpha=0.001)
 
-fname = get_tmpfile("my_doc2vec_model")
-print(fname)
-#load model from saved file
+
+d2v_model.train(all_content_train, 
+                total_examples=d2v_model.corpus_count, 
+                epochs=10, 
+                start_alpha=0.002, 
+                end_alpha=-0.016)
+
+fname = "my_doc2vec.model"
 d2v_model.save(fname)
-d2v_model = Doc2Vec.load(fname)  
+
+s = ["severe myositis on commencement of efavirenz , abacavir and lamivudine , in the absence of lactic acidosis or classical abacavir hypersensitivity summary myositis in hiv may be due to hiv itself , or to opportunistic infection , malignancy or drug treatment . severe myositis or rhabdomyolysis have never been reported with the commonly used nucleoside reverse transcriptase inhibitor abacavir , although creatine phosphokinase may rise modestly , particularly if abacavir hypersensitivity occurs"]
+d2v_model = Doc2Vec.load(fname)
+infer_vector = d2v_model.infer_vector(s)
+similar_documents = d2v_model.docvecs.most_similar([infer_vector], topn = 1)
+print('Document Id = ' + str(similar_documents[0][0]))
 
 # you can continue training with the loaded model!
 #If you’re finished training a model (=no more updates, only querying, reduce memory usage), you can do: 
-d2v_model.delete_temporary_training_data(keep_doctags_vectors=True, keep_inference=True)
+#d2v_model.delete_temporary_training_data(keep_doctags_vectors=True, keep_inference=True)
 
 
 kmeans_model = KMeans(n_clusters=4, init='k-means++', max_iter=100)
@@ -68,28 +81,21 @@ plt.scatter(centroidpoint[:, 0], centroidpoint[:, 1], marker='^', s=150, c='#000
 plt.show()
  
  
-#Infer vector for a new document:
-#Here our text paragraph just 2 words
-vector = d2v_model.infer_vector(["echocardiogram"])
-print (vector)
-print(len(vector))
 
 #inference hyper-parameters
-start_alpha=0.01
-infer_epoch=1000
+start_alpha=0.002
+infer_epoch=10
 
 test_docs="test_doc2.txt"
 #load model
 m = Doc2Vec.load(fname)
-test_docs = [ x.strip().split() for x in codecs.open(test_docs, "r", "utf-8").readlines() ]
+test_docs = [x.strip().split() for x in codecs.open(test_docs, "r", "utf-8").readlines()]
  
 X=[]
-for d in test_docs:
-     
-    X.append( m.infer_vector(d, alpha=start_alpha, steps=infer_epoch) )
-    
- 
-k=4
+for d in test_docs:     
+    X.append(m.infer_vector(d, alpha=start_alpha, steps=infer_epoch))
+
+k = 4 
  
 from sklearn.cluster import Birch
  
@@ -100,13 +106,10 @@ clusters = brc.predict(X)
  
 labels = brc.labels_
  
- 
-print ("Clusters: ")
-print (clusters)
- 
+print("Clusters: ")
+print(clusters)
  
 silhouette_score = metrics.silhouette_score(X, labels, metric='euclidean')
  
 print ("Silhouette_score: ")
-
 print (silhouette_score)

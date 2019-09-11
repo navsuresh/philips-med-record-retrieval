@@ -20,7 +20,8 @@ for doc in docs:
     f = open(doc, 'r')
     doc_rows.append([f.read()])
     f.close()
-    
+	
+doc_rows = [[i[0].split('\n')[2]] for i in doc_rows]    
 train = pd.DataFrame(doc_rows, columns = (['text']))
 
 # print(doc_rows[0])

@@ -10,11 +10,11 @@ class Results(Table):
    title = Col('Title')
  
 @app.route('/', methods = ['GET', 'POST'])  
-def contact():  
+def search():  
    form = QueryForm()  
    if form.validate() == False:  
       flash('All fields are required.')  
-   return render_template('contact.html', form = form, table = "")  
+   return render_template('search.html', form = form, table = "")  
  
  
  
@@ -28,7 +28,7 @@ def success():
    results = search(req)
    table = Results(results)
    table.border = True
-   return render_template("contact.html", table = table, form = form) 
+   return render_template("search.html", table = table, form = form) 
 
 def search(req):
    return [dict(score='0.98', title=req),

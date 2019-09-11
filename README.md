@@ -1,1 +1,1 @@
-# philips-mmed-record-retrieval
+# philips-med-record-retrieval

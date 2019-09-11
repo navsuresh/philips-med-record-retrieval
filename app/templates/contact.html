@@ -1,0 +1,60 @@
+<!doctype html>  
+<html>  
+    <head>
+        <style>
+            body{
+            background: #f2f2f2;
+            font-family: 'Open Sans', sans-serif;
+            }
+            .searchButton {
+            width: 80px;
+            height: 66px;
+            border: 1px solid #00B4CC;
+            background: #00B4CC;
+            text-align: center;
+            color: #fff;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            font-size: 20px;
+            }
+            .search {
+            width: 100%;
+            position: absolute;
+            display: flex;
+            margin:auto;
+            left: 6%;
+        
+
+            }
+            .searchTerm {
+            width: 75%;
+            border: 3px solid #00B4CC;
+            border-right: none;
+            padding: 5px;
+            height: 50px;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+            color: #9DBFAF;
+            font-size: 40px
+            }
+        </style>
+    </head>
+   <body>  
+      <h1 style = "text-align: center;">Medical Record Search</h1>  
+
+  
+        
+      <form action = "http://localhost:5000/success" method = "POST">  
+           
+              
+            <div class="search">  
+               {{ form.email.label }}<br>  
+               {{ form.email(class="searchTerm") }}  
+               <br>  
+
+               {{ form.submit(class="searchButton") }}  
+            </div>  
+              
+      </form>  
+   </body>  
+</html>  

@@ -47,9 +47,9 @@ num_best = 10
 
 instance = WmdSimilarity(doc_rows, model, num_best=10)
 
-sent = 'Very good, you should seat outdoor.'
+sent = 'severe myositis on commencement of efavirenz , abacavir and lamivudine , in the absence of lactic acidosis or classical abacavir hypersensitivity summary myositis in hiv may be due to hiv itself , or to opportunistic infection , malignancy or drug treatment . severe myositis or rhabdomyolysis have never been reported with the commonly used nucleoside reverse transcriptase inhibitor abacavir , although creatine phosphokinase may rise modestly , particularly if abacavir hypersensitivity occurs'
 query = preprocess(sent)
-
+query = ' '.join(query)
 sims = instance[query]  # A query is simply a "look-up" in the similarity class.
 
 print('Query:')

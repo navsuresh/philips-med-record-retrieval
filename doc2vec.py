@@ -15,7 +15,6 @@ import pandas as pd
 from sklearn import metrics
 import gensim.models as g
 import codecs
-
 path = '../clicr-master/dataset/no-ent/cnnlike/test/*'
 docs = glob.glob(path)
 doc_rows = []
@@ -23,7 +22,6 @@ for doc in docs:
     f = open(doc, 'r')
     doc_rows.append([f.read()])
     f.close()
-	
 doc_rows = [[i[0].split('\n')[2]] for i in doc_rows]    
 train = pd.DataFrame(doc_rows, columns = (['text']))
 
